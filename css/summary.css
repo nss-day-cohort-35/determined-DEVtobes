@@ -1,0 +1,29 @@
+.title {
+    margin: 5%;
+    padding: 1em 0em 1em 0em;
+}
+
+.aliases {
+    padding: 0em 0em 1em 0em;
+}
+
+.collaborators {
+    padding: 0em 2em 0em 0em;
+    border: 1em;
+    position: relative;
+    float: left;
+    width: 98px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portrait {
+    width: 40%;
+    height: auto;
+}
+
+h3 {
+    margin: 2%;
+}
