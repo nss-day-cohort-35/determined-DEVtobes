@@ -1,0 +1,29 @@
+
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1px;
+}
+ img {
+  
+    float: left;
+    width:  200px;
+    height: 200px;
+    margin: 10px;
+    padding-top: 10px;
+}
+  
+.page {
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-bottom: 20px;
+}
+.artist-info {
+    padding: 10px 10px 10px 10px;
+}
+ul {
+    list-style-type: none;
+}
