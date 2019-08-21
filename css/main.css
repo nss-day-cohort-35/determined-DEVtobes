@@ -1,5 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    background-color: black;
+    display: flex;
+    max-width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     text-align: center;
+    background-color: #ff1178;
 }
 
 .information {
@@ -9,4 +30,37 @@ footer {
 
   .footer {
       list-style: none;
+  }
+
+  h1 {
+    font-family: 'Cantata One', serif;
+    color: black;
+    font-size: 45px;
+  }
+
+  .familyMembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .img-family {
+    width:  200px;
+    height: 200px;
+    margin: 30px;
+    border: 2px solid salmon;
+    align-self: flex-end;
+  }
+
+  .img-hero-personal {
+    width:  100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    padding-top: 20px;
   }
