@@ -3,10 +3,15 @@ footer {
 }
 
 .information {
-    color: black; 
+    color: black;
     text-align: center;
-  }
+}
 
-  .footer {
-      list-style: none;
-  }
+.footer {
+    list-style: none;
+}
+
+.friend {
+    margin-top: 80%;
+    margin-bottom: 80%;
+}
