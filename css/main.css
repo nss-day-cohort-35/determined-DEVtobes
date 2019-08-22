@@ -72,8 +72,6 @@ footer {
     list-style: none;
 }
 
-
-
 .familyMembers {
     display: flex;
     flex-wrap: wrap;
@@ -89,13 +87,13 @@ footer {
 }
 
 .img-hero-personal {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  padding-top: 200px;
-  padding-bottom: 15px;
-} 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 200px;
+    padding-bottom: 15px;
+}
 
 
 /* Style all font awesome icons */
@@ -154,20 +152,20 @@ footer {
     letter-spacing: 2px;
     font-size: 12px;
     padding-top: 20px;
-  }
+}
 
-  hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: none;
-  height: 6px;
-  background-color: #ff1178;
-    }
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    height: 6px;
+    background-color: #ff1178;
+}
 
-    h2 {
+h2 {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -176,38 +174,38 @@ footer {
     text-align: center;
     font-size: 35px;
     padding-top: 15px;
-    }
+}
 
-    .homepage-name {
-        font-family: 'Barlow Condensed', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 2px;
-        color: #99ff00;
-        text-align: center;
-        font-size: 55px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        }
+.homepage-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #99ff00;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
-    .introPersonal {
+.introPersonal {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: black;
     text-align: center;
     font-size: 35px;
-    }
+}
 
-    p {
+p {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
     color: black;
     text-align: center;
     font-size: 18px;
-    }
+}
 
-    .home-hero {
+.home-hero {
     width: 50px;
     height: 700px;
     display: flex;
@@ -217,19 +215,20 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 140px;
-    }
+}
+
+
+h1 {
 }
 
 /* Begin Phil's CSS*/
-
-h1 {
+.artist-title {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
     color: #99ff00;
     text-align: center;
     font-size: 70px;
 }
-
 .home-location {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
@@ -237,13 +236,12 @@ h1 {
     text-align: center;
     font-size: 55px;
 }
-
 .aliases {
     padding: 0em 0em 1em 0em;
 }
-
 .collaborators {
     padding: 0em 2em 0em 0em;
+    margin-bottom: 1%;
     border: 1em;
     position: relative;
     float: left;
@@ -252,27 +250,41 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
 .portrait {
     width: 40%;
     height: auto;
 }
-
-h3 {
-    margin: 2%;
+.paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
-.friend {
-    margin-top: 8%;
-    margin-bottom: 10%;
+.musicians {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
 }
-
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .names {
     margin-left: 5%;
     margin-top: 2%;
 }
-
 ul {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
@@ -283,4 +295,3 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
-
