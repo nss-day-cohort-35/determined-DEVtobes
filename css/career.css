@@ -1,6 +1,6 @@
 
-body {
-    margin-top: 50px;
+.intro-career {
+    padding-top: 100px;
 }
 
 .media {
@@ -32,5 +32,8 @@ body {
 ul {
     list-style-type: none;
 }
-
+.beyonce-head-photo {
+    
+    max-width: 200;
+    max-height: 300;
 
