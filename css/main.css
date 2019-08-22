@@ -177,7 +177,7 @@ h1 {
 
 .collaborators {
     padding: 0em 2em 0em 0em;
-    margin-left: 15%;
+    margin-bottom: 1%;
     border: 1em;
     position: relative;
     float: left;
@@ -186,6 +186,9 @@ h1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .portrait {
@@ -193,20 +196,29 @@ h1 {
     height: auto;
 }
 
-h3 {
-    margin: 2%;
+.paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.friend {
-    margin-top: 8%;
-    margin-bottom: 10%;
+.musicians {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
 }
 
-.names {
-    margin-left: 5%;
-    margin-top: 2%;
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1%;
 }
 
-.colabname {
-    margin-left: 15%;
+.col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
