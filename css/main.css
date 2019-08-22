@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .topnav {
     height: 150px;
@@ -20,7 +18,7 @@
 
 .logo-img {
     position: fixed;
-    margin: 30px 15px 30px 10px;
+    margin: 10px 15px 30px 10px;
     z-index: 1;
     padding-left: 10px;
     padding-top: 30px;
@@ -30,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 header li {
@@ -62,83 +60,98 @@ footer {
 }
 
 .information {
-    color:white; 
+    color: white;
     text-align: center;
-  }
+}
 
-  .footer {
-      list-style: none;
-  }
+.footer {
+    list-style: none;
+}
 
-  h1 {
+.footer {
+    list-style: none;
+}
+
+h1 {
     font-family: 'Cantata One', serif;
     color: white;
     font-size: 45px;
-  }
+}
 
-  .familyMembers {
+.familyMembers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+}
 
-  .img-family {
-    width:  200px;
+.img-family {
+    width: 200px;
     height: 200px;
     margin: 30px;
     border: 3px solid #ff1178;
     align-self: flex-end;
-  }
+}
 
-  .img-hero-personal {
+.img-hero-personal {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding-top: 170px;
-  padding-bottom: 20px;
-  }
+  width: 25%;
+  padding-top: 200px;
+  padding-bottom: 15px;
+} 
 
-  /* Style all font awesome icons */
+
+/* Style all font awesome icons */
+
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-  }
+}
 
-  /* Add a hover effect if you want */
+
+/* Add a hover effect if you want */
+
 .fa:hover {
     opacity: 0.7;
-  }
+}
 
-  /* Set a specific color for each brand */
+
+/* Set a specific color for each brand */
+
 
 /* Facebook */
+
 .fa-facebook {
     background: #99FF00;
     color: #ff1178;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
+}
+
+
+/* Twitter */
+
+.fa-twitter {
     background: #99FF00;
     color: #ff1178;
-  }
+}
 
-  /* Instagram */
-  .fa-instagram {
+
+/* Instagram */
+
+.fa-instagram {
     background: #99FF00;
     color: #ff1178;
-  }
+}
 
-  .social-icons {
-      padding-top: 20px;
-  }
+.social-icons {
+    padding-top: 20px;
+}
 
-  .footer-quote {
-      color: white;
+.footer-quote {
+    color: white;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -187,12 +200,57 @@ footer {
     }
 
     .home-hero {
-     width: 50px;
-    height: 500px;
+    width: 50px;
+    height: 700px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-top: 140px;
     }
+}
+
+
+/* Begin Phil's CSS*/
+
+.title {
+    margin: 5%;
+    padding: 1em 0em 1em 0em;
+}
+
+.aliases {
+    padding: 0em 0em 1em 0em;
+}
+
+.collaborators {
+    padding: 0em 2em 0em 0em;
+    border: 1em;
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 170px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portrait {
+    width: 40%;
+    height: auto;
+}
+
+h3 {
+    margin: 2%;
+}
+
+.friend {
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.names {
+    margin-left: 5%;
+    margin-top: 2%;
+}
