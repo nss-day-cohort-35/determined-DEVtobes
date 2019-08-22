@@ -19,8 +19,8 @@
 }
 
 .logo-img {
-    position: relative;
-    margin: 10px 15px 15px 10px;
+    position: fixed;
+    margin: 30px 15px 30px 10px;
     z-index: 1;
     padding-left: 10px;
     padding-top: 30px;
@@ -91,16 +91,12 @@ footer {
   }
 
   .img-hero-personal {
-    width:  100px;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 170px;
+  padding-bottom: 20px;
   }
 
   /* Style all font awesome icons */
@@ -158,7 +154,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   border-style: none;
-  height: 20px;
+  height: 6px;
   background-color: #ff1178;
     }
 
@@ -167,7 +163,7 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #ff1178;
+    color: black;
     text-align: center;
     font-size: 35px;
     padding-top: 15px;
@@ -177,10 +173,9 @@ footer {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 2px;
-    color: #ff1178;
+    color: black;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     }
 
     p  {
@@ -192,7 +187,7 @@ footer {
     }
 
     .home-hero {
-     width:  100px;
+     width: 50px;
     height: 500px;
     display: flex;
     flex-direction: row;
