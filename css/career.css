@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .intro-career {
     padding-top: 100px;
@@ -12,22 +13,35 @@
     margin-bottom: 40px;
  }
  
+=======
+>>>>>>> master
 .media {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  
 }
+
 .photo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
-    width:  200px;
+    width: 200px;
     height: 200px;
     margin: 10px;
     padding-top: 10px;
 }
+.artist-info { 
+    padding: 70px 10px 10px 10px;
+}
+  
+.skills-to-awards {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 60px 10px 80px 10px;
+
+ }
+/*check out with main.css*/
 ul {
     list-style-type: none;
 }
@@ -46,4 +60,18 @@ margin-bottom: 20px;}
 .skills-to-awards {
     align-content: center;
     
+}
+.page {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.artist-info {
+    padding: 10px 10px 10px 10px;
+}
+
+ul {
+    list-style-type: none;
 }
