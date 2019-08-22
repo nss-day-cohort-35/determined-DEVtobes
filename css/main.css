@@ -20,9 +20,10 @@
 
 .logo-img {
     position: relative;
-    margin: 10px  15px 15px 10px;
+    margin: 10px 15px 15px 10px;
     z-index: 1;
     padding-left: 10px;
+    padding-top: 30px;
 }
 
 .navigation {
@@ -98,8 +99,8 @@ footer {
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 70px;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   /* Style all font awesome icons */
@@ -167,4 +168,36 @@ footer {
     font-weight: bold;
     letter-spacing: 2px;
     color: #ff1178;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px;
+    }
+
+    .introPersonal {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ff1178;
+    text-align: center;
+    font-size: 45px;
+    }
+
+    p  {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    }
+
+    .home-hero {
+     width:  100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     }
