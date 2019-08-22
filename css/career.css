@@ -31,5 +31,9 @@ body {
 ul {
     list-style-type: none;
 }
-
-
+.beyonce-head-photo {
+    padding-top: 25px;
+    width:  250px;
+    height: 300px;
+    align-content: center;
+}
