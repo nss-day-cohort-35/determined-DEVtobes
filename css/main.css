@@ -72,11 +72,7 @@ footer {
     list-style: none;
 }
 
-h1 {
-    font-family: 'Cantata One', serif;
-    color: white;
-    font-size: 45px;
-}
+
 
 .familyMembers {
     display: flex;
@@ -171,7 +167,7 @@ h1 {
   background-color: #ff1178;
     }
 
-    h2  {
+    h2 {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -182,6 +178,18 @@ h1 {
     padding-top: 15px;
     }
 
+    .homepage-name {
+        font-family: 'Barlow Condensed', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #99ff00;
+        text-align: center;
+        font-size: 55px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+
     .introPersonal {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
@@ -191,7 +199,7 @@ h1 {
     font-size: 35px;
     }
 
-    p  {
+    p {
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 1px;
     color: black;
@@ -212,12 +220,22 @@ h1 {
     }
 }
 
-
 /* Begin Phil's CSS*/
 
-.title {
-    margin: 5%;
-    padding: 1em 0em 1em 0em;
+.artist-title h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: #99ff00;
+    text-align: center;
+    font-size: 70px;
+}
+
+.home-location {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: #99ff00;
+    text-align: center;
+    font-size: 55px;
 }
 
 .aliases {
@@ -255,8 +273,14 @@ h3 {
     margin-top: 2%;
 }
 
-
-.intro {
-    background-color: yellow;
-    margin: auto;
+ul {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
+
