@@ -149,3 +149,22 @@ footer {
     font-size: 12px;
     padding-top: 20px;
   }
+
+  hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  height: 20px;
+  background-color: #ff1178;
+    }
+
+    h2  {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ff1178;
+    }
