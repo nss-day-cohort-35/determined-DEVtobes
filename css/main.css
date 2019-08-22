@@ -5,26 +5,63 @@
     box-sizing: border-box;
 }
 
+
 .topnav {
+    height: 150px;
     background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
     display: flex;
-    max-width:100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: .2em;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100px;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-img {
+    position: relative;
+    margin: 10px  15px 15px 10px;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0; 
+}
+
+header li {
+    margin: 20px;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header li a:hover {
+    opacity: 0.9;
+    color: #99FF00;
 }
 
 footer {
     text-align: center;
-    background-color: #ff1178;
+    background-color: black;
+    height: 180px;
 }
 
 .information {
-    color: black; 
+    color:white; 
     text-align: center;
   }
 
@@ -34,7 +71,7 @@ footer {
 
   h1 {
     font-family: 'Cantata One', serif;
-    color: black;
+    color: white;
     font-size: 45px;
   }
 
@@ -62,5 +99,53 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 70px;
+    padding-top: 20px;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #99FF00;
+    color: #ff1178;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #99FF00;
+    color: #ff1178;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #99FF00;
+    color: #ff1178;
+  }
+
+  .social-icons {
+      padding-top: 20px;
+  }
+
+  .footer-quote {
+      color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
     padding-top: 20px;
   }
