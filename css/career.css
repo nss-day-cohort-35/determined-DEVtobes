@@ -9,8 +9,7 @@ body {
 .page {
     padding: 10px 10px 10px 10px;
     text-align: center;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
  }
  
 .media {
@@ -29,9 +28,6 @@ body {
     margin: 10px;
     padding-top: 10px;
 }
-  
-
-
 ul {
     list-style-type: none;
 }
