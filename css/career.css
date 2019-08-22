@@ -1,5 +1,4 @@
 
-
 .media {
     display: flex;
     flex-wrap: wrap;
@@ -27,3 +26,21 @@
 ul {
     list-style-type: none;
 }
+.head-image {
+    width: 100%;
+    margin: 0;
+    background-size: 1000px;
+    height: 400px;
+}
+footer {
+    text-align: center;
+}
+
+.information {
+    color: black; 
+    text-align: center;
+  }
+
+  .footer {
+      list-style: none;
+  }
