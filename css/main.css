@@ -177,6 +177,7 @@ h1 {
 
 .collaborators {
     padding: 0em 2em 0em 0em;
+    margin-left: 15%;
     border: 1em;
     position: relative;
     float: left;
@@ -204,4 +205,8 @@ h3 {
 .names {
     margin-left: 5%;
     margin-top: 2%;
+}
+
+.colabname {
+    margin-left: 15%;
 }
