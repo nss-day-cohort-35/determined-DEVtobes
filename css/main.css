@@ -1,9 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.topnav {
+    height: 150px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-img {
+    position: relative;
+    margin: 10px  15px 15px 10px;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0; 
+}
+
+header li {
+    margin: 20px;
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header li a:hover {
+    opacity: 0.9;
+    color: #99FF00;
+}
+
 footer {
     text-align: center;
+    background-color: black;
+    height: 180px;
 }
 
 .information {
+<<<<<<< HEAD
     color: black;
+=======
+    color:white; 
+>>>>>>> master
     text-align: center;
 }
 
@@ -11,7 +73,94 @@ footer {
     list-style: none;
 }
 
+<<<<<<< HEAD
 .friend {
     margin-top: 80%;
     margin-bottom: 80%;
 }
+=======
+  .footer {
+      list-style: none;
+  }
+
+  h1 {
+    font-family: 'Cantata One', serif;
+    color: white;
+    font-size: 45px;
+  }
+
+  .familyMembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .img-family {
+    width:  200px;
+    height: 200px;
+    margin: 30px;
+    border: 2px solid salmon;
+    align-self: flex-end;
+  }
+
+  .img-hero-personal {
+    width:  100px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    padding-top: 20px;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #99FF00;
+    color: #ff1178;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #99FF00;
+    color: #ff1178;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #99FF00;
+    color: #ff1178;
+  }
+
+  .social-icons {
+      padding-top: 20px;
+  }
+
+  .footer-quote {
+      color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+>>>>>>> master
