@@ -1,0 +1,14 @@
+#wrapper {
+    margin: 5em 5em 5em 5em;
+    background-color: white;
+}
+#RecentNews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#UpcomingEvents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
