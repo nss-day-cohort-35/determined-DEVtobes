@@ -1,5 +1,6 @@
 #wrapper {
     background-color: white;
+    
 }
 
 #RecentNews {
@@ -12,7 +13,10 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
+=======
 
 .header-news {
     padding-top: 200px;
 }
+>>>>>>> master
