@@ -47,6 +47,7 @@ ul {
     display: flex;
     width:  250px;
     height: 275px;   
+    border: 3px solid #ff1178;
 }
 /* main photo*/
 .box {
