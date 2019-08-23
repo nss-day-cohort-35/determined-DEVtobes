@@ -13,10 +13,12 @@ body {
     margin-bottom: 40px;
  }
  /* div class for images*/
+
 .media {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  
 }
 /* class for all photos*/
 .photo {
@@ -24,7 +26,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
-    width: 200px;
+    width:  200px;
     height: 200px;
     margin-top: 10px;
     border: 3px solid #ff1178;
@@ -60,8 +62,36 @@ ul {
 
 /* ol because main page has ul*/
 ol {
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 25%;
+ padding-top: 100px;
+}
+
+.b-header {
+    display: block;
+text-align: center;
+margin-bottom: 20px;}
+
+  
+.page {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+ }
+.artist-info {
+    padding: 10px 10px 10px 10px;   
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right:70px;
+}
+ul {
     list-style-type: none;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 10px;
 }
+
+
