@@ -1,15 +1,16 @@
+
 .media {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  
 }
-
 .photo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
-    width: 200px;
+    width:  200px;
     height: 200px;
     margin: 10px;
     padding-top: 10px;
@@ -42,17 +43,21 @@ ul {
 text-align: center;
 margin-bottom: 20px;}
 
+  
 .page {
     padding: 10px 10px 10px 10px;
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
-}
-
+ }
 .artist-info {
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;   
+    padding-top: 30px;
+    margin-left: 70px;
+    margin-right:70px;
 }
-
 ul {
     list-style-type: none;
 }
+
+
