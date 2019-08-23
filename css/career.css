@@ -24,6 +24,9 @@
  }
 .artist-info {
     padding: 10px 10px 10px 10px;   
+    padding-top: 200px;
+    margin-left: 70px;
+    margin-right:70px;
 }
 ul {
     list-style-type: none;
