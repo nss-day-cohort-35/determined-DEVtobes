@@ -26,8 +26,10 @@ body {
     float: left;
     width: 200px;
     height: 200px;
-    margin: 10px;
-    padding-top: 10px;
+    margin-top: 10px;
+    border: 3px solid #ff1178;
+    margin-bottom: 20px;
+
 }
 
   /* div class for main content under paragraph*/
